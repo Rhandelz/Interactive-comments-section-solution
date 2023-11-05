@@ -7,15 +7,13 @@ This is a solution to the [Interactive comments section challenge on Frontend Me
 ## Table of contents
 
 - [Overview](#overview)
-
-  - [Screenshot](#screenshot)
   - [Links](#links)
 
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Enhance Skills](#what-i-learned)
   - [Tips & Improvments](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Useful resources](#useful-resources) 
 - [Author](#author)
 
 ### Links
