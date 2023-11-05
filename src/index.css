@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Rubik", sans-serif;
+  transition: 0.2s;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaecf1;
+  overflow: hidden;
+  padding-bottom: 16px;
+  flex-direction: column;
+}
+
+.p_w {
+  width: 731px;
+}
+
+.card_w {
+  width: 50.8%;
+}
+
+.btn_w {
+  width: 52px;
+}
+
+.main_card_w {
+  width: 624px;
+}
+
+.reply_card_w {
+  width: 642px;
+}
+.p_size {
+  font-size: 16px;
+}
+
+.br {
+  border: 1px solid black;
+}
+
+.dp_left_w {
+  width: 75%;
+}
+
+.min-w {
+  min-height: 120px;
+}
+
+.input_w {
+  width: 506px;
+  min-height: 96px;
+}
+
+.br_l {
+  border-left: 1px solid #c3c4ef;
+}
+
+.reply_w {
+  width: 93.79%;
+}
+
+@media (max-width: 764px) {
+  .md_w {
+    width: 100%;
+  }
+}
+
+.w_dp {
+  width: 25%;
+}
+
+.w_ago {
+  width: 75%;
+}
+
+.word-w {
+  word-wrap: break-word;
+}
+
+.modal_w {
+  width: 343px;
+  height: 224px;
+}
