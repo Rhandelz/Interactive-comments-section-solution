@@ -35,9 +35,6 @@ const Reply_Content = ({
 
   const deleteRep = () => {
     showDeleted((prev) => !prev);
-    /* dispatch(
-      deleteReply({ commentId: mainContent.id, userId: mainContent.commentId })
-    ); */
   };
 
   const sendUpdate = () => {

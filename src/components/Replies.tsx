@@ -1,5 +1,4 @@
 import Reply_Content from "./Reply_Content";
-import Count from "./Count";
 import { useState } from "react";
 import { ReplyType } from "./Comm_Card";
 import Reply_Input from "./Reply_Input";

@@ -33,26 +33,6 @@ const DeleteComment = ({
     }
   };
 
-  const variants = {
-    start: {
-      scale: 0.4,
-      borderRadius: 100,
-      transition: {
-        staggerChildren: 0.1 /* delayChildren: 0.2 */,
-        when: "afterChildren",
-      },
-    },
-    end: {
-      scale: 1,
-      borderRadius: 10,
-
-      transition: {
-        when: "beforeChildren",
-        staggerChildren: 0.2,
-      },
-    },
-  };
-
   return (
     <div
       className={`${
