@@ -2,7 +2,7 @@ import deleteIcon from "../assets/images/icon-delete.svg";
 import editIcon from "../assets/images/icon-edit.svg";
 import replyIcon from "../assets/images/icon-reply.svg";
 import data from "../../data/data.json";
-import { increament, decreament, deleteComment } from "../features/slice";
+import { increament, decreament } from "../features/slice";
 import { useAppDispatch } from "../../app/redux_hook";
 import { useState } from "react";
 import DeleteComment from "./DeleteComment";

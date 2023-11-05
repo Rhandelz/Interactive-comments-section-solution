@@ -5,7 +5,7 @@ import deleteIcon from "../assets/images/icon-delete.svg";
 import editIcon from "../assets/images/icon-edit.svg";
 import data from "../../data/data.json";
 import { useAppDispatch } from "../../app/redux_hook";
-import { deleteComment, editComment } from "../features/slice";
+import { editComment } from "../features/slice";
 import DeleteComment from "./DeleteComment";
 import Ago from "./Ago";
 
